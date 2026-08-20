@@ -2,7 +2,7 @@ import sympy as sp
 
 # 1. Define symbol and objective function
 x = sp.symbols("x")
-f = x**3 - 3 * x  # Function with a local minimum at x = 1
+f = ((x**4)/4) - x**3 - x  # Function with a local minimum at x = 1
 
 # 2. Compute first and second derivatives ONCE outside the loop
 f1 = sp.diff(f, x)  # f'(x)
