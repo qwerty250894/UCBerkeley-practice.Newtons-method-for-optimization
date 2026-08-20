@@ -1,6 +1,6 @@
 import sympy as sp
 import numpy as np
-
+#hihihihihihihiih Nice work
 def newton_optimize_multi(
     f: sp.Expr,
     vars_list: list[sp.Symbol],
